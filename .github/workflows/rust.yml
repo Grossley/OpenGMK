@@ -10,9 +10,9 @@ on:
           required: true
           default: 'YES!'
   push:
-    branches: [ master ]
+    branches: [ master, ui-rework ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, ui-rework ]
 
 env:
   CARGO_TERM_COLOR: always
